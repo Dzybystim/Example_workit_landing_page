@@ -1,0 +1,37 @@
+
+:root {
+    --brand-color: #24053e;
+    --second-brand-color: #44FFA1;
+    --icon-color: #584D62;
+    --fon-color: #FCF8FF;
+    --white-color: #FFFFFF;
+
+    --heading-font: 'Fraunces';
+    --text-font: 'Manrope';
+  }
+
+
+.hero {
+    background-color: var(--brand-color);
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 32px;
+}
+
+.headnav {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 64px;
+}
+
+.headnav_logo {
+    width: 95px;
+}
+
+.headnav_apply_link {
+    text-decoration: none;
+    color: var(--white-color);
+    font-family: var(--text-font);
+    font-size: 16px;
+    font-weight: 400;
+}
